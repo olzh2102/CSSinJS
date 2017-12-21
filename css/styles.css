@@ -1,0 +1,36 @@
+body {
+	text-align: center;
+	background-color: #FAECE5;
+	color: #51357A;
+	font-family: "Nunito Sans", sans-serif;
+	font-weigth: 100;
+	font-size: 36px;
+}
+
+.controls {
+	margin-bottom: 50px;
+}
+
+label {
+	text-transform: uppercase;
+}
+
+input {
+	width: 100px;
+}
+
+:root {
+	--base: #647;
+	--spacing: 10px;
+	--blur: 0px;
+}
+
+img {
+	padding: var(--spacing);
+	background-color: var(--base);
+	filter: blur(var(--blur));
+}
+
+.hl {
+	color: var(--base);
+}
